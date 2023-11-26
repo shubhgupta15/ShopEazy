@@ -1,6 +1,7 @@
 
 package GUIElements;
 
+import javax.swing.Icon;
 import javax.swing.ImageIcon;
 
 public class modelMenu {
@@ -45,7 +46,8 @@ public class modelMenu {
     menuType type;
     
     public Icon toIcon(){
-        return new ImageIcon(getClass().getResource("C:\\Users\\shubh\\OneDrive\\Desktop\\ShopEazy\\src\\icons\\" + icon + ".png"));
+        return new ImageIcon(System.getProperty("user.dir") + ("C:\\Users\\shubh\\OneDrive\\Desktop\\ShopEazy\\src\\resources\\" + icon + ".png"));
+        //return new ImageIcon(getClass().getResource("C:\\Users\\shubh\\OneDrive\\Desktop\\ShopEazy\\src\\resources\\" + icon + ".png"));
     }
     
     public static enum menuType{
