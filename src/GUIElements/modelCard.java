@@ -20,14 +20,6 @@ public class modelCard {
         this.price = price;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
     public Icon getIcon() {
         return icon;
     }
@@ -37,11 +29,10 @@ public class modelCard {
     }
     
     
-    public modelCard(Icon icon, String title, String price, String description) {
+    public modelCard(Icon icon, String title, String price) {
         this.icon = icon;
         this.title = title;
         this.price = price;
-        this.description = description;
     }
 
     public modelCard() {
@@ -50,7 +41,6 @@ public class modelCard {
     private Icon icon;
     private String title;
     private String price;
-    private String description;
     
     
 }

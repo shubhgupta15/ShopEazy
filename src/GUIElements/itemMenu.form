@@ -21,83 +21,13 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLayeredPane1" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
+          <EmptySpace min="0" pref="49" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLayeredPane1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-          </Group>
+          <EmptySpace min="0" pref="822" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
-  <SubComponents>
-    <Container class="javax.swing.JLayeredPane" name="jLayeredPane1">
-
-      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
-        <Property name="columns" type="int" value="0"/>
-        <Property name="rows" type="int" value="25"/>
-        <Property name="verticalGap" type="int" value="15"/>
-      </Layout>
-      <SubComponents>
-        <Component class="GUIElements.itemCards" name="itemCards25">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards24">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards23">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards22">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards21">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards20">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards19">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards18">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards17">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards16">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards15">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards14">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards13">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards12">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards11">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards10">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards9">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards8">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards7">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards6">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards5">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards4">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards3">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards2">
-        </Component>
-        <Component class="GUIElements.itemCards" name="itemCards1">
-        </Component>
-      </SubComponents>
-    </Container>
-  </SubComponents>
 </Form>
