@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
  */
-package GUIElements.itemCards;
+package itemCards;
 
 /**
  *
@@ -27,16 +27,16 @@ public class itemCardsMenu extends javax.swing.JPanel {
     private void initComponents() {
 
         jLayeredPane2 = new javax.swing.JLayeredPane();
-        winebliss3 = new GUIElements.itemCards.winebliss();
-        eggs1 = new GUIElements.itemCards.eggs();
-        avacadoes1 = new GUIElements.itemCards.avacadoes();
-        honey1 = new GUIElements.itemCards.honey();
-        pasta1 = new GUIElements.itemCards.pasta();
-        fbasket1 = new GUIElements.itemCards.fbasket();
-        loaf1 = new GUIElements.itemCards.loaf();
-        fillets1 = new GUIElements.itemCards.fillets();
-        quinoa1 = new GUIElements.itemCards.quinoa();
-        coffee1 = new GUIElements.itemCards.coffee();
+        winebliss3 = new itemCards.winebliss();
+        eggs1 = new itemCards.eggs();
+        avacadoes1 = new itemCards.avacadoes();
+        honey1 = new itemCards.honey();
+        pasta1 = new itemCards.pasta();
+        fbasket1 = new itemCards.fbasket();
+        loaf1 = new itemCards.loaf();
+        fillets1 = new itemCards.fillets();
+        quinoa1 = new itemCards.quinoa();
+        coffee1 = new itemCards.coffee();
 
         setBackground(new java.awt.Color(255, 255, 255));
 
@@ -68,16 +68,16 @@ public class itemCardsMenu extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private GUIElements.itemCards.avacadoes avacadoes1;
-    private GUIElements.itemCards.coffee coffee1;
-    private GUIElements.itemCards.eggs eggs1;
-    private GUIElements.itemCards.fbasket fbasket1;
-    private GUIElements.itemCards.fillets fillets1;
-    private GUIElements.itemCards.honey honey1;
+    private itemCards.avacadoes avacadoes1;
+    private itemCards.coffee coffee1;
+    private itemCards.eggs eggs1;
+    private itemCards.fbasket fbasket1;
+    private itemCards.fillets fillets1;
+    private itemCards.honey honey1;
     private javax.swing.JLayeredPane jLayeredPane2;
-    private GUIElements.itemCards.loaf loaf1;
-    private GUIElements.itemCards.pasta pasta1;
-    private GUIElements.itemCards.quinoa quinoa1;
-    private GUIElements.itemCards.winebliss winebliss3;
+    private itemCards.loaf loaf1;
+    private itemCards.pasta pasta1;
+    private itemCards.quinoa quinoa1;
+    private itemCards.winebliss winebliss3;
     // End of variables declaration//GEN-END:variables
 }

@@ -1,9 +1,9 @@
 
-package GUIElements.itemCards;
+package itemCards;
 
-public class fillets extends javax.swing.JPanel {
+public class coffee extends javax.swing.JPanel {
 
-    public fillets() {
+    public coffee() {
         initComponents();
     }
 
@@ -24,14 +24,14 @@ public class fillets extends javax.swing.JPanel {
 
         labelName.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         labelName.setForeground(new java.awt.Color(0, 0, 0));
-        labelName.setText("Wild-caught Salmon Fillets: ");
+        labelName.setText("Fair Trade Coffee Beans");
 
         labelPrice.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         labelPrice.setForeground(new java.awt.Color(0, 0, 0));
-        labelPrice.setText("$27.99");
+        labelPrice.setText("$18.64");
 
         labelIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/511ld5XjFwL (1).jpg"))); // NOI18N
+        labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/Roasted_coffee_beans (1).jpg"))); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
@@ -45,7 +45,7 @@ public class fillets extends javax.swing.JPanel {
         jTextArea1.setBackground(new java.awt.Color(255, 255, 255));
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Indulge in the rich taste of wild-caught salmon. High in omega-3\nfatty acids, these fillets are a healthy addition to your seafood\nrepertoire.");
+        jTextArea1.setText("Brew a cup of ethically sourced and richly flavored coffee with these\nfair trade coffee beans. Support sustainable farming practices while\nenjoying your daily caffeine fix.");
         jScrollPane1.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -58,7 +58,7 @@ public class fillets extends javax.swing.JPanel {
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 381, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(labelPrice)
                     .addComponent(labelName))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(494, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addGap(8, 8, 8)

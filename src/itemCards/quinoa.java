@@ -1,9 +1,9 @@
 
-package GUIElements.itemCards;
+package itemCards;
 
-public class loaf extends javax.swing.JPanel {
+public class quinoa extends javax.swing.JPanel {
 
-    public loaf() {
+    public quinoa() {
         initComponents();
     }
 
@@ -24,14 +24,14 @@ public class loaf extends javax.swing.JPanel {
 
         labelName.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         labelName.setForeground(new java.awt.Color(0, 0, 0));
-        labelName.setText("Artisnal Bread Loaf");
+        labelName.setText("Organic Quinoa");
 
         labelPrice.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         labelPrice.setForeground(new java.awt.Color(0, 0, 0));
-        labelPrice.setText("$4.99");
+        labelPrice.setText("$16.25");
 
         labelIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/Bread-Recipe-5-2 (1).jpg"))); // NOI18N
+        labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/instant-pot-quinoa-20-20211203 (2).jpg"))); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
@@ -45,7 +45,7 @@ public class loaf extends javax.swing.JPanel {
         jTextArea1.setBackground(new java.awt.Color(255, 255, 255));
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Savor the aroma of freshly baked artisanal bread. From rustic\nsourdough to whole wheat, choose your favorite to complement any\nmeal.");
+        jTextArea1.setText("Enhance your meals with this versatile and nutritious organic quinoa.\nA great source of protein and fiber, it's a staple for salads, bowls, and\nsides.");
         jScrollPane1.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

@@ -43,25 +43,25 @@
         <Property name="verticalGap" type="int" value="10"/>
       </Layout>
       <SubComponents>
-        <Component class="GUIElements.itemCards.winebliss" name="winebliss3">
+        <Component class="itemCards.winebliss" name="winebliss3">
         </Component>
-        <Component class="GUIElements.itemCards.eggs" name="eggs1">
+        <Component class="itemCards.eggs" name="eggs1">
         </Component>
-        <Component class="GUIElements.itemCards.avacadoes" name="avacadoes1">
+        <Component class="itemCards.avacadoes" name="avacadoes1">
         </Component>
-        <Component class="GUIElements.itemCards.honey" name="honey1">
+        <Component class="itemCards.honey" name="honey1">
         </Component>
-        <Component class="GUIElements.itemCards.pasta" name="pasta1">
+        <Component class="itemCards.pasta" name="pasta1">
         </Component>
-        <Component class="GUIElements.itemCards.fbasket" name="fbasket1">
+        <Component class="itemCards.fbasket" name="fbasket1">
         </Component>
-        <Component class="GUIElements.itemCards.loaf" name="loaf1">
+        <Component class="itemCards.loaf" name="loaf1">
         </Component>
-        <Component class="GUIElements.itemCards.fillets" name="fillets1">
+        <Component class="itemCards.fillets" name="fillets1">
         </Component>
-        <Component class="GUIElements.itemCards.quinoa" name="quinoa1">
+        <Component class="itemCards.quinoa" name="quinoa1">
         </Component>
-        <Component class="GUIElements.itemCards.coffee" name="coffee1">
+        <Component class="itemCards.coffee" name="coffee1">
         </Component>
       </SubComponents>
     </Container>

@@ -2,7 +2,7 @@
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
   <NonVisualComponents>
-    <Component class="GUIElements.itemCards.winebliss" name="winebliss1">
+    <Component class="itemCards.winebliss" name="winebliss1">
     </Component>
   </NonVisualComponents>
   <Properties>

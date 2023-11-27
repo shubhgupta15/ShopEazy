@@ -1,5 +1,5 @@
 
-package GUIElements.itemCards;
+package itemCards;
 
 public class honey extends javax.swing.JPanel {
 

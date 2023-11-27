@@ -1,9 +1,9 @@
 
-package GUIElements.itemCards;
+package itemCards;
 
-public class pasta extends javax.swing.JPanel {
+public class eggs extends javax.swing.JPanel {
 
-    public pasta() {
+    public eggs() {
         initComponents();
     }
 
@@ -24,14 +24,14 @@ public class pasta extends javax.swing.JPanel {
 
         labelName.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         labelName.setForeground(new java.awt.Color(0, 0, 0));
-        labelName.setText("Whole Grain Pasta");
+        labelName.setText("Farm-Fresh Eggs");
 
         labelPrice.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         labelPrice.setForeground(new java.awt.Color(0, 0, 0));
-        labelPrice.setText("$1.64");
+        labelPrice.setText("$5.67/dozen");
 
         labelIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/_DSC0220 (2).jpg"))); // NOI18N
+        labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/eggs-e1648216369366.jpg"))); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
@@ -45,7 +45,7 @@ public class pasta extends javax.swing.JPanel {
         jTextArea1.setBackground(new java.awt.Color(255, 255, 255));
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Elevate your pasta dishes with this wholesome whole grain pasta. \nPacked with fiber and nutrients, it's a healthier alternative for your \nfavorite recipes.");
+        jTextArea1.setText("Start your day right with farm-fresh eggs. Rich in protein and flavor,\nthese eggs are sourced from local, happy hens.");
         jScrollPane1.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

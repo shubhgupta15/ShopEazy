@@ -1,9 +1,9 @@
 
-package GUIElements.itemCards;
+package itemCards;
 
-public class fbasket extends javax.swing.JPanel {
+public class pasta extends javax.swing.JPanel {
 
-    public fbasket() {
+    public pasta() {
         initComponents();
     }
 
@@ -24,14 +24,14 @@ public class fbasket extends javax.swing.JPanel {
 
         labelName.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         labelName.setForeground(new java.awt.Color(0, 0, 0));
-        labelName.setText("Seasonal Fruits Basket");
+        labelName.setText("Whole Grain Pasta");
 
         labelPrice.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         labelPrice.setForeground(new java.awt.Color(0, 0, 0));
-        labelPrice.setText("$37.99");
+        labelPrice.setText("$1.64");
 
         labelIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/fruit-basket (1).jpg"))); // NOI18N
+        labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/_DSC0220 (2).jpg"))); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
@@ -45,7 +45,7 @@ public class fbasket extends javax.swing.JPanel {
         jTextArea1.setBackground(new java.awt.Color(255, 255, 255));
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Enjoy a variety of fresh, seasonal fruits in this vibrant and nutritious\nbasket. Perfect for snacking or creating colorful fruit salads.");
+        jTextArea1.setText("Elevate your pasta dishes with this wholesome whole grain pasta. \nPacked with fiber and nutrients, it's a healthier alternative for your \nfavorite recipes.");
         jScrollPane1.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

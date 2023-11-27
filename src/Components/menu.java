@@ -1,5 +1,7 @@
-package GUIElements;
+package Components;
 
+import Events.menuSelected;
+import GUIElements.modelMenu;
 import java.awt.Color;
 import java.awt.GradientPaint;
 import java.awt.Graphics;
@@ -12,6 +14,13 @@ import java.awt.event.MouseMotionAdapter;
 import javax.swing.JFrame;
 
 public class menu extends javax.swing.JPanel {
+    
+    private menuSelected event;
+    
+    public void addMenuSelected(menuSelected event) {
+        this.event = event;
+        menuList1.addMenuSelected(event);
+    }
 
     public menu() {
         initComponents();
@@ -35,7 +44,7 @@ public class menu extends javax.swing.JPanel {
         menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));
         menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));
         menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));
-        menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));
+        menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));        
         menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));
         
         menuList1.addItem(new modelMenu("3", "Employee Login", modelMenu.menuType.MENU));

@@ -1,9 +1,9 @@
 
-package GUIElements.itemCards;
+package itemCards;
 
-public class avacadoes extends javax.swing.JPanel {
+public class winebliss extends javax.swing.JPanel {
 
-    public avacadoes() {
+    public winebliss() {
         initComponents();
     }
 
@@ -11,7 +11,6 @@ public class avacadoes extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        winebliss1 = new GUIElements.itemCards.winebliss();
         labelName = new javax.swing.JLabel();
         labelPrice = new javax.swing.JLabel();
         labelIcon = new javax.swing.JLabel();
@@ -25,14 +24,14 @@ public class avacadoes extends javax.swing.JPanel {
 
         labelName.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         labelName.setForeground(new java.awt.Color(0, 0, 0));
-        labelName.setText("Organic Avocadoes");
+        labelName.setText("WineBliss Red");
 
         labelPrice.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         labelPrice.setForeground(new java.awt.Color(0, 0, 0));
-        labelPrice.setText("$1.45/lb");
+        labelPrice.setText("$7.99");
 
         labelIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/avocadoes (1).jpg"))); // NOI18N
+        labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/pexels-adonyi-gábor-1479706 (4).jpg"))); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
@@ -46,7 +45,7 @@ public class avacadoes extends javax.swing.JPanel {
         jTextArea1.setBackground(new java.awt.Color(255, 255, 255));
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Creamy and nutritious, these organic avocados are perfect for salads,\nspreads, or a classic guacamole.");
+        jTextArea1.setText("Indulge in the rich symphony of velvety red fruits and subtle oak\nnotes, crafted to perfection. Elevate your evenings with this smooth\nand sophisticated red wine.\n\n");
         jScrollPane1.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -110,6 +109,5 @@ public class avacadoes extends javax.swing.JPanel {
     private javax.swing.JLabel labelIcon;
     private javax.swing.JLabel labelName;
     private javax.swing.JLabel labelPrice;
-    private GUIElements.itemCards.winebliss winebliss1;
     // End of variables declaration//GEN-END:variables
 }

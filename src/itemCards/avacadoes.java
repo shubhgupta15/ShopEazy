@@ -1,9 +1,9 @@
 
-package GUIElements.itemCards;
+package itemCards;
 
-public class coffee extends javax.swing.JPanel {
+public class avacadoes extends javax.swing.JPanel {
 
-    public coffee() {
+    public avacadoes() {
         initComponents();
     }
 
@@ -11,6 +11,7 @@ public class coffee extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        winebliss1 = new itemCards.winebliss();
         labelName = new javax.swing.JLabel();
         labelPrice = new javax.swing.JLabel();
         labelIcon = new javax.swing.JLabel();
@@ -24,14 +25,14 @@ public class coffee extends javax.swing.JPanel {
 
         labelName.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         labelName.setForeground(new java.awt.Color(0, 0, 0));
-        labelName.setText("Fair Trade Coffee Beans");
+        labelName.setText("Organic Avocadoes");
 
         labelPrice.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         labelPrice.setForeground(new java.awt.Color(0, 0, 0));
-        labelPrice.setText("$18.64");
+        labelPrice.setText("$1.45/lb");
 
         labelIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/Roasted_coffee_beans (1).jpg"))); // NOI18N
+        labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/avocadoes (1).jpg"))); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
@@ -45,7 +46,7 @@ public class coffee extends javax.swing.JPanel {
         jTextArea1.setBackground(new java.awt.Color(255, 255, 255));
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Brew a cup of ethically sourced and richly flavored coffee with these\nfair trade coffee beans. Support sustainable farming practices while\nenjoying your daily caffeine fix.");
+        jTextArea1.setText("Creamy and nutritious, these organic avocados are perfect for salads,\nspreads, or a classic guacamole.");
         jScrollPane1.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -109,5 +110,6 @@ public class coffee extends javax.swing.JPanel {
     private javax.swing.JLabel labelIcon;
     private javax.swing.JLabel labelName;
     private javax.swing.JLabel labelPrice;
+    private itemCards.winebliss winebliss1;
     // End of variables declaration//GEN-END:variables
 }
