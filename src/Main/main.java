@@ -14,23 +14,23 @@ import java.awt.RenderingHints;
 import javax.swing.JComponent;
 
 
-public class homePage extends javax.swing.JFrame {
+public class main extends javax.swing.JFrame {
 
     /**
-     * Creates new form homePage
+     * Creates new form main
      */
     
     private itemMenu items;
     private shoppingCart sCart;
     
-    public homePage() {
+    public main() {
         initComponents();
         setBackground(new Color(0, 0, 0, 0));
         
         items = new itemMenu();
         sCart = new shoppingCart();
         
-        menu.initMoving(homePage.this); //enables moving
+        menu.initMoving(main.this); //enables moving
         
         // enables for the change of panels by menu
         menu.addMenuSelected(new menuSelected() {
@@ -161,20 +161,21 @@ public class homePage extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(homePage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(homePage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(homePage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(homePage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new homePage().setVisible(true);
+                new main().setVisible(true);
             }
         });
     }
