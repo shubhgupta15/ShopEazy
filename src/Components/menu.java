@@ -17,6 +17,7 @@ public class menu extends javax.swing.JPanel {
     
     private menuSelected event;
     
+    // Menu select event
     public void addMenuSelected(menuSelected event) {
         this.event = event;
         menuList1.addMenuSelected(event);
@@ -29,6 +30,8 @@ public class menu extends javax.swing.JPanel {
         init();
     }
     
+    
+    // Add Menu Panels for Use
     private void init() {
         menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));
         menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));
@@ -99,7 +102,8 @@ public class menu extends javax.swing.JPanel {
                 .addComponent(menuList1, javax.swing.GroupLayout.DEFAULT_SIZE, 634, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
-
+    
+    // Color and other UI Properties for the Menu
     @Override
     protected void paintChildren (Graphics grphcs) {
         Graphics2D g2 = (Graphics2D) grphcs;
@@ -113,6 +117,9 @@ public class menu extends javax.swing.JPanel {
     
     private int x, y;
     
+    /* Method for enabling the ability to move the program by clicking on
+     * the logo in the menu section
+     */ 
     public void initMoving(JFrame frame){
         panelMoving.addMouseListener(new MouseAdapter(){
             @Override

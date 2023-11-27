@@ -1,4 +1,4 @@
-
+//java class to for getters and setters of the menu list.
 package GUIElements;
 
 import javax.swing.Icon;
@@ -47,7 +47,6 @@ public class modelMenu {
     
     public Icon toIcon(){
         return new ImageIcon(System.getProperty("user.dir") + ("C:\\Users\\shubh\\OneDrive\\Desktop\\ShopEazy\\src\\resources\\" + icon + ".png"));
-        //return new ImageIcon(getClass().getResource("C:\\Users\\shubh\\OneDrive\\Desktop\\ShopEazy\\src\\resources\\" + icon + ".png"));
     }
     
     public static enum menuType{

@@ -1,3 +1,7 @@
+/*
+Main Class for the java program.
+*/
+
 package Main;
 import Events.menuSelected;
 import Pages.shoppingCart;
@@ -26,7 +30,9 @@ public class homePage extends javax.swing.JFrame {
         items = new itemMenu();
         sCart = new shoppingCart();
         
-        menu.initMoving(homePage.this);
+        menu.initMoving(homePage.this); //enables moving
+        
+        // enables for the change of panels by menu
         menu.addMenuSelected(new menuSelected() {
             @Override
             public void selected(int index) {
@@ -46,6 +52,7 @@ public class homePage extends javax.swing.JFrame {
         setForm(items);
     }
     
+    // sets the panel for change
     private void setForm(JComponent com) {
         mainPanel.removeAll();
         mainPanel.add(com);
@@ -123,11 +130,13 @@ public class homePage extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
+    
+    // exit button configuration
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         System.exit(0);
     }//GEN-LAST:event_jButton1ActionPerformed
-
+    
+    // UI elements
     @Override
     public void paintComponents(Graphics g) {
         Graphics2D g2 = (Graphics2D)g;
@@ -137,8 +146,7 @@ public class homePage extends javax.swing.JFrame {
         super.paintComponents(g);
     }
 
-    
-    
+    // main method
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

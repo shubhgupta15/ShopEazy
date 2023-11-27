@@ -1,3 +1,7 @@
+/*
+Allows the coder to add additional menu items
+*/
+
 
 package GUIElements;
 
@@ -18,23 +22,27 @@ public class menuItems extends javax.swing.JPanel {
     public menuItems(modelMenu data) {
         initComponents();
         setOpaque(false);
+        
+        //for menu item
         if(data.getType() == modelMenu.menuType.MENU) {
             labelIcon.setIcon((Icon) data.toIcon());
             labelName.setText(data.getName());
-        } else if (data.getType() == modelMenu.menuType.TITLE) {
+        } else if (data.getType() == modelMenu.menuType.TITLE) {    // for title items
             labelName.setText(data.getName());
             labelIcon.setFont(new Font("Helvetica", 1, 12));
             labelName.setVisible(false);
-        } else {
+        } else { // for empty
             labelName.setText(" ");
         }
     }
     
+    // checks for selected
     public void setSelected(boolean selected) {
         this.selected = selected;
         repaint();
     }
     
+    // checks for hover
     public void setHover(boolean hover) {
         this.hover = hover;
         repaint();
@@ -70,6 +78,7 @@ public class menuItems extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
     
+    // UI elements
     @Override
     protected void paintComponent(Graphics grphcs) {
         if (selected || hover) {

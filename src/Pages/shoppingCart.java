@@ -1,13 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
- */
+// shopping cart panel for ready use
 package Pages;
 
-/**
- *
- * @author shubh
- */
+
 public class shoppingCart extends javax.swing.JPanel {
 
     /**
