@@ -1,3 +1,5 @@
+// the menu class
+
 package Components;
 
 import Events.menuSelected;
@@ -29,7 +31,6 @@ public class menu extends javax.swing.JPanel {
         menuList1.setOpaque(false);
         init();
     }
-    
     
     // Add Menu Panels for Use
     private void init() {

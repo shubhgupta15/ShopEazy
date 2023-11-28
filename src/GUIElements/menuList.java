@@ -1,3 +1,4 @@
+// program for the backbone of the menu lists.
 
 package GUIElements;
 
@@ -28,6 +29,9 @@ public class menuList<E extends Object> extends JList<E>{
     public menuList() {
         model = new DefaultListModel();
         setModel(model);
+        
+        // checks if the menu panel has been selected
+        
         addMouseListener(new MouseAdapter() {
             @Override
             public void mousePressed(MouseEvent me){
@@ -59,6 +63,8 @@ public class menuList<E extends Object> extends JList<E>{
             
         });
         
+        // checks if the mouse is hovering over the menu panel
+        
         addMouseMotionListener(new MouseMotionAdapter() {
             @Override
             public void mouseMoved(MouseEvent me) {
@@ -83,6 +89,13 @@ public class menuList<E extends Object> extends JList<E>{
         
     }
     
+    
+    /*
+     * changes the ui for the menu panel depending if it has been selected or 
+     * being hovered
+     *
+     */ 
+    
     @Override
     public ListCellRenderer<? super E> getCellRenderer() {
         return new DefaultListCellRenderer() {
@@ -104,6 +117,8 @@ public class menuList<E extends Object> extends JList<E>{
             
         };
     }
+    
+    // method for adding the item to menu.
     
     public void addItem(modelMenu data) {
         model.addElement(data);

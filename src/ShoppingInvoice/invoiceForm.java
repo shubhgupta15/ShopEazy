@@ -1,3 +1,5 @@
+// ui element for the invoice form
+
 package ShoppingInvoice;
 
 import java.util.ArrayList;
@@ -18,8 +20,6 @@ public class invoiceForm extends javax.swing.JPanel {
     ArrayList<String> quantity = new ArrayList();
     ArrayList<String> itemPrice = new ArrayList();
     ArrayList<String> subTotal = new ArrayList();
-    
-    
     
     public invoiceForm() {
         initComponents();
@@ -45,7 +45,7 @@ public class invoiceForm extends javax.swing.JPanel {
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
+        changeButton = new javax.swing.JButton();
         subTotalLabel = new javax.swing.JLabel();
         totalPriceLabel = new javax.swing.JLabel();
         balanceLabel = new javax.swing.JLabel();
@@ -126,10 +126,10 @@ public class invoiceForm extends javax.swing.JPanel {
         jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("Balance");
 
-        jButton2.setText("Change");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        changeButton.setText("Change");
+        changeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                changeButtonActionPerformed(evt);
             }
         });
 
@@ -152,7 +152,7 @@ public class invoiceForm extends javax.swing.JPanel {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jButton2)
+                    .addComponent(changeButton)
                     .addComponent(addButton)
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addGroup(jPanel2Layout.createSequentialGroup()
@@ -215,7 +215,7 @@ public class invoiceForm extends javax.swing.JPanel {
                     .addComponent(jLabel8)
                     .addComponent(balanceLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(39, 39, 39)
-                .addComponent(jButton2)
+                .addComponent(changeButton)
                 .addGap(60, 60, 60))
         );
 
@@ -242,7 +242,9 @@ public class invoiceForm extends javax.swing.JPanel {
     private void itemPriceTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemPriceTxtActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_itemPriceTxtActionPerformed
-
+    
+    // the method for the add button in the invoice form
+    
     private void addButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButtonActionPerformed
         itemName.add(itemNameTxt.getText());
         quantity.add(itemQtyTxt.getText());
@@ -260,6 +262,8 @@ public class invoiceForm extends javax.swing.JPanel {
         clear();
     }//GEN-LAST:event_addButtonActionPerformed
     
+    // clear method
+    
     private void clear() {
         itemNameTxt.setText("");
         itemQtyTxt.setText("");
@@ -270,22 +274,25 @@ public class invoiceForm extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_cashTextActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    
+    // the method for the change button in the invoice form
+    
+    private void changeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_changeButtonActionPerformed
         cashT = cashText.getText();
         cash = Double.parseDouble(cashT);
         balance = cash - totalAmount;
         balanceLabel.setText(balance + "");
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_changeButtonActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton addButton;
     private javax.swing.JLabel balanceLabel;
     private javax.swing.JTextField cashText;
+    private javax.swing.JButton changeButton;
     private javax.swing.JTextField itemNameTxt;
     private javax.swing.JTextField itemPriceTxt;
     private javax.swing.JTextField itemQtyTxt;
-    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

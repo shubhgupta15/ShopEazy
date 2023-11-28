@@ -4,9 +4,7 @@ Main Class for the java program.
 
 package Main;
 import Events.menuSelected;
-import Pages.shoppingCart;
 import Pages.itemMenu;
-import itemCards.itemCardsMenu;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -22,7 +20,6 @@ public class main extends javax.swing.JFrame {
      */
     
     private itemMenu items;
-    private shoppingCart sCart;
     private invoiceForm iForm;
     
     public main() {
@@ -30,7 +27,6 @@ public class main extends javax.swing.JFrame {
         setBackground(new Color(0, 0, 0, 0));
         
         items = new itemMenu();
-        sCart = new shoppingCart();
         iForm = new invoiceForm();
         
         menu.initMoving(main.this); //enables moving

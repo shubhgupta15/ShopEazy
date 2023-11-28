@@ -1,12 +1,6 @@
 
 package itemCards;
 
-import itemCardsForCart.*;
-import itemCards.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.table.DefaultTableModel;
-
 public class avacadoes extends javax.swing.JPanel {
    
     public avacadoes() {
@@ -17,7 +11,7 @@ public class avacadoes extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        winebliss1 = new itemCards.winebliss();
+        //winebliss1 = new itemCards.winebliss();
         labelName = new javax.swing.JLabel();
         labelPrice = new javax.swing.JLabel();
         labelIcon = new javax.swing.JLabel();
@@ -86,6 +80,5 @@ public class avacadoes extends javax.swing.JPanel {
     private javax.swing.JLabel labelIcon;
     private javax.swing.JLabel labelName;
     private javax.swing.JLabel labelPrice;
-    private itemCards.winebliss winebliss1;
     // End of variables declaration//GEN-END:variables
 }
