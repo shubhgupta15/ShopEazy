@@ -43,7 +43,7 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
-        <Component class="itemCards.itemCardsMenu" name="itemCardsMenu1">
+        <Component class="itemCards.itemCardsMenu" name="itemCardsMenu2">
         </Component>
       </SubComponents>
     </Container>

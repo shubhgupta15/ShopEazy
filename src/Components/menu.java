@@ -40,7 +40,6 @@ public class menu extends javax.swing.JPanel {
         
         menuList1.addItem(new modelMenu("1", "Item Menu", modelMenu.menuType.MENU));
         menuList1.addItem(new modelMenu("2", "Shopping Cart", modelMenu.menuType.MENU));
-        menuList1.addItem(new modelMenu("3", "Return Items", modelMenu.menuType.MENU));
         
         menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));
         menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));
@@ -48,6 +47,7 @@ public class menu extends javax.swing.JPanel {
         menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));
         menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));
         menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));        
+        menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));
         menuList1.addItem(new modelMenu("", "", modelMenu.menuType.EMPTY));
         
         menuList1.addItem(new modelMenu("3", "Employee Login", modelMenu.menuType.MENU));

@@ -15,13 +15,13 @@ public class itemMenu extends javax.swing.JPanel {
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
-        itemCardsMenu1 = new itemCards.itemCardsMenu();
+        itemCardsMenu2 = new itemCards.itemCardsMenu();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(927, 615));
 
         jScrollPane1.setBorder(null);
-        jScrollPane1.setViewportView(itemCardsMenu1);
+        jScrollPane1.setViewportView(itemCardsMenu2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -37,7 +37,7 @@ public class itemMenu extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private itemCards.itemCardsMenu itemCardsMenu1;
+    private itemCards.itemCardsMenu itemCardsMenu2;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
 }

@@ -12,6 +12,7 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import javax.swing.JComponent;
+import ShoppingInvoice.invoiceForm;
 
 
 public class main extends javax.swing.JFrame {
@@ -22,6 +23,7 @@ public class main extends javax.swing.JFrame {
     
     private itemMenu items;
     private shoppingCart sCart;
+    private invoiceForm iForm;
     
     public main() {
         initComponents();
@@ -29,6 +31,7 @@ public class main extends javax.swing.JFrame {
         
         items = new itemMenu();
         sCart = new shoppingCart();
+        iForm = new invoiceForm();
         
         menu.initMoving(main.this); //enables moving
         
@@ -40,10 +43,8 @@ public class main extends javax.swing.JFrame {
                 if (index == 4) {
                     setForm(items);
                 } else if (index == 5) {
-                    setForm(sCart);
-                } else if (index == 6) {
-                    setForm(items);
-                } else if (index == 14) {
+                    setForm(iForm);
+                } else if (index == 13) {
                     setForm(items);
                 }
             }
@@ -58,6 +59,10 @@ public class main extends javax.swing.JFrame {
         mainPanel.add(com);
         mainPanel.repaint();
         mainPanel.revalidate();
+    }
+    
+    public void setCard(JComponent com) {
+        
     }
     
     
