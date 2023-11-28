@@ -3,6 +3,7 @@ Main Class for the java program.
 */
 
 package Main;
+import Employee.employee;
 import Events.menuSelected;
 import Pages.itemMenu;
 import java.awt.Color;
@@ -21,6 +22,7 @@ public class main extends javax.swing.JFrame {
     
     private itemMenu items;
     private invoiceForm iForm;
+    private employee emp;
     
     public main() {
         initComponents();
@@ -28,6 +30,7 @@ public class main extends javax.swing.JFrame {
         
         items = new itemMenu();
         iForm = new invoiceForm();
+        emp = new employee();
         
         menu.initMoving(main.this); //enables moving
         
@@ -40,8 +43,8 @@ public class main extends javax.swing.JFrame {
                     setForm(items);
                 } else if (index == 5) {
                     setForm(iForm);
-                } else if (index == 13) {
-                    setForm(items);
+                } else if (index == 14) {
+                    setForm(emp);
                 }
             }
             
@@ -50,7 +53,7 @@ public class main extends javax.swing.JFrame {
     }
     
     // sets the panel for change
-    private void setForm(JComponent com) {
+    public void setForm(JComponent com) {
         mainPanel.removeAll();
         mainPanel.add(com);
         mainPanel.repaint();

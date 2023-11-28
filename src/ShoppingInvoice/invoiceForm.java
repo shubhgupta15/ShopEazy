@@ -254,10 +254,10 @@ public class invoiceForm extends javax.swing.JPanel {
         itemPrc = itemPriceTxt.getText();
         
         subtotal = Double.parseDouble(itemQty) * Double.parseDouble(itemPrc);
-        subTotalLabel.setText(subtotal + "");
+        subTotalLabel.setText("$" + subtotal + "");
         
         totalAmount = (subtotal * 0.0625) + subtotal;
-        totalPriceLabel.setText(totalAmount + "");
+        totalPriceLabel.setText("$" + totalAmount + "");
         
         clear();
     }//GEN-LAST:event_addButtonActionPerformed
@@ -281,7 +281,13 @@ public class invoiceForm extends javax.swing.JPanel {
         cashT = cashText.getText();
         cash = Double.parseDouble(cashT);
         balance = cash - totalAmount;
-        balanceLabel.setText(balance + "");
+        
+        if (balance < totalAmount) {
+            balanceLabel.setText("Balance Negative - Additional $" + (totalAmount - cash) + " required");
+        } else {
+            balanceLabel.setText("$" + balance + "");
+        }
+        
     }//GEN-LAST:event_changeButtonActionPerformed
 
 
