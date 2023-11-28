@@ -4,33 +4,32 @@ Main Class for the java program.
 
 package Main;
 import Events.menuSelected;
-import Pages.shoppingCart;
 import Pages.itemMenu;
-import itemCards.itemCardsMenu;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import javax.swing.JComponent;
+import ShoppingInvoice.invoiceForm;
 
 
-public class homePage extends javax.swing.JFrame {
+public class main extends javax.swing.JFrame {
 
     /**
-     * Creates new form homePage
+     * Creates new form main
      */
     
     private itemMenu items;
-    private shoppingCart sCart;
+    private invoiceForm iForm;
     
-    public homePage() {
+    public main() {
         initComponents();
         setBackground(new Color(0, 0, 0, 0));
         
         items = new itemMenu();
-        sCart = new shoppingCart();
+        iForm = new invoiceForm();
         
-        menu.initMoving(homePage.this); //enables moving
+        menu.initMoving(main.this); //enables moving
         
         // enables for the change of panels by menu
         menu.addMenuSelected(new menuSelected() {
@@ -40,10 +39,8 @@ public class homePage extends javax.swing.JFrame {
                 if (index == 4) {
                     setForm(items);
                 } else if (index == 5) {
-                    setForm(sCart);
-                } else if (index == 6) {
-                    setForm(items);
-                } else if (index == 14) {
+                    setForm(iForm);
+                } else if (index == 13) {
                     setForm(items);
                 }
             }
@@ -58,6 +55,10 @@ public class homePage extends javax.swing.JFrame {
         mainPanel.add(com);
         mainPanel.repaint();
         mainPanel.revalidate();
+    }
+    
+    public void setCard(JComponent com) {
+        
     }
     
     
@@ -161,20 +162,21 @@ public class homePage extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(homePage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(homePage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(homePage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(homePage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new homePage().setVisible(true);
+                new main().setVisible(true);
             }
         });
     }

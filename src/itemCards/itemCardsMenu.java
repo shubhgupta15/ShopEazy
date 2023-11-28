@@ -12,31 +12,32 @@ public class itemCardsMenu extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        honey2 = new itemCards.honey();
         jLayeredPane2 = new javax.swing.JLayeredPane();
-        winebliss3 = new itemCards.winebliss();
-        eggs1 = new itemCards.eggs();
-        avacadoes1 = new itemCards.avacadoes();
-        honey1 = new itemCards.honey();
-        pasta1 = new itemCards.pasta();
-        fbasket1 = new itemCards.fbasket();
-        loaf1 = new itemCards.loaf();
-        fillets1 = new itemCards.fillets();
-        quinoa1 = new itemCards.quinoa();
-        coffee1 = new itemCards.coffee();
+        winebliss1 = new itemCards.winebliss();
+        eggs2 = new itemCards.eggs();
+        avacadoes2 = new itemCards.avacadoes();
+        coffee2 = new itemCards.coffee();
+        quinoa2 = new itemCards.quinoa();
+        fillets2 = new itemCards.fillets();
+        loaf2 = new itemCards.loaf();
+        fbasket2 = new itemCards.fbasket();
+        pasta2 = new itemCards.pasta();
+        honey3 = new itemCards.honey();
 
         setBackground(new java.awt.Color(255, 255, 255));
 
         jLayeredPane2.setLayout(new java.awt.GridLayout(10, 0, 5, 10));
-        jLayeredPane2.add(winebliss3);
-        jLayeredPane2.add(eggs1);
-        jLayeredPane2.add(avacadoes1);
-        jLayeredPane2.add(honey1);
-        jLayeredPane2.add(pasta1);
-        jLayeredPane2.add(fbasket1);
-        jLayeredPane2.add(loaf1);
-        jLayeredPane2.add(fillets1);
-        jLayeredPane2.add(quinoa1);
-        jLayeredPane2.add(coffee1);
+        jLayeredPane2.add(winebliss1);
+        jLayeredPane2.add(eggs2);
+        jLayeredPane2.add(avacadoes2);
+        jLayeredPane2.add(coffee2);
+        jLayeredPane2.add(quinoa2);
+        jLayeredPane2.add(fillets2);
+        jLayeredPane2.add(loaf2);
+        jLayeredPane2.add(fbasket2);
+        jLayeredPane2.add(pasta2);
+        jLayeredPane2.add(honey3);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -54,16 +55,17 @@ public class itemCardsMenu extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private itemCards.avacadoes avacadoes1;
-    private itemCards.coffee coffee1;
-    private itemCards.eggs eggs1;
-    private itemCards.fbasket fbasket1;
-    private itemCards.fillets fillets1;
-    private itemCards.honey honey1;
+    private itemCards.avacadoes avacadoes2;
+    private itemCards.coffee coffee2;
+    private itemCards.eggs eggs2;
+    private itemCards.fbasket fbasket2;
+    private itemCards.fillets fillets2;
+    private itemCards.honey honey2;
+    private itemCards.honey honey3;
     private javax.swing.JLayeredPane jLayeredPane2;
-    private itemCards.loaf loaf1;
-    private itemCards.pasta pasta1;
-    private itemCards.quinoa quinoa1;
-    private itemCards.winebliss winebliss3;
+    private itemCards.loaf loaf2;
+    private itemCards.pasta pasta2;
+    private itemCards.quinoa quinoa2;
+    private itemCards.winebliss winebliss1;
     // End of variables declaration//GEN-END:variables
 }
